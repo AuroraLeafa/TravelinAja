@@ -264,6 +264,7 @@ margin-top: -270px;
 }
 
 .lead{
+  text-align: justify;
   font-size: 18px;
   font-weight: thin;
 }
