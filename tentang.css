@@ -19,8 +19,10 @@ body{
 }
 
 .container{
-    margin:auto;
-  }
+    
+    align-items: center;
+    
+}
 
 /* Scrollbar */
 body::-webkit-scrollbar {
@@ -93,22 +95,48 @@ top: 0px;
 }
 
 .rect:hover{
-  background-color:#007219;
+    background-color:#007219;
 }
 .rect:active{
-  top: 10px;
+    top: 10px;
 }
 
 .judul > a{
-      position: absolute;
-      left: 32px;
-      top: 15px;
-      z-index: 100;
-      font-style: italic;
-      font-weight: bold;
-      font-size: 2.3vw;
-      line-height: 37px;
+    position: absolute;
+    left: 32px;
+    top: 15px;
+    z-index: 100;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 2.3vw;
+    line-height: 37px;
       /* identical to box height */
-      color: #FFFFFF;
-      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.45);
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.45);
     }
+
+/* About US */
+.pos{
+    position: relative;
+    top: 100px;
+}
+
+.line{
+    position: relative;
+    display: flex;
+    top: -30px;
+    left:250px;
+    width: 300px;
+    border: 1px solid #FFFFFF;
+}
+
+.lead > h1{
+    position: relative;
+    top: -20px;
+    left: 250px;
+}
+
+.lead > p{
+    position: relative;
+    text-align: justify;
+}
