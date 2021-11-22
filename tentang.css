@@ -19,9 +19,7 @@ body{
 }
 
 .container{
-    
     align-items: center;
-    
 }
 
 /* Scrollbar */
@@ -139,4 +137,27 @@ top: 0px;
 .lead > p{
     position: relative;
     text-align: justify;
+}
+
+/* Meet Our Team */
+.spot{
+  position: relative;
+  left: 150px;
+  top: 50px;
+}
+
+.teks{
+  position: relative;
+  left: -90px;
+  text-align:center;
+}
+
+.ukuran{
+  font-size: 25px;
+}
+
+.posi{
+  position: relative;
+  left: -100px;
+  top: -30px;
 }
