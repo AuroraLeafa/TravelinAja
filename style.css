@@ -57,7 +57,7 @@ nav {
     height: 80px;
 }
 
-nav a:hover{
+.warna:hover{
   color:yellow;
 }
 
@@ -137,15 +137,11 @@ header {
 
 img{
 background-size: cover;
+overflow: hidden;
 position: relative;
 width: 100%;
+height: 100%;
 margin-top: -270px;
-}
-
-.cover{
-  overflow: hidden;
-  height: 1912px;
-  width: 100%;
 }
 
 .header-title {
